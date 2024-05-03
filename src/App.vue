@@ -1,5 +1,6 @@
 <template>
   <div align = "center"> Test CICD!!! </div>
+  <button>button</button>
 </template>
 
 <script>
