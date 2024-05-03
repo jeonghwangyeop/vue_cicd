@@ -1,4 +1,5 @@
 FROM node:latest
 WORKDIR /frontappCOPY . .
-RUN npm installEXPOSE 8080
+RUN npm install
+EXPOSE 8080
 CMD ["npm", "run", "serve"]
