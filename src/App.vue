@@ -1,5 +1,5 @@
 <template>
-  <div align = "center"> Test CICD! </div>
+  <div align = "center"> Test CICD!!! </div>
 </template>
 
 <script>
