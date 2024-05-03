@@ -1,11 +1,4 @@
-FROM node:latest AS build
-WORKDIR /frontapp
-COPY . .
-RUN npm install
-RUN npm run build
-
-# production
-FROM node:14-alpine
-WORKDIR /frontapp
-COPY --from=build /frontapp /frontapp
+FROM node:latest
+WORKDIR /frontappCOPY . .
+RUN npm installEXPOSE 8080
 CMD ["npm", "run", "serve"]
